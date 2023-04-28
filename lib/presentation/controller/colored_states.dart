@@ -1,5 +1,4 @@
- ///
- class ColoredStates {
-  ///
- }
-
+///
+class ColoredStates {
+  ///TODO(Shimaa):state variables
+}

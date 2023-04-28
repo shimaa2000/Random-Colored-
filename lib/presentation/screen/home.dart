@@ -14,7 +14,9 @@ class Home extends StatelessWidget {
     return BlocProvider(
       create: (BuildContext context) => ColoredCubit(),
       child: BlocConsumer<ColoredCubit, ColoredStates>(
-        listener: (context, state) {},
+        listener: (context, state) {
+          ///TODO(Shimaa): listener function
+        },
         builder: (context, state) {
           final app = ColoredCubit.get(context);
 
